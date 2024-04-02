@@ -4,3 +4,5 @@
 - `DENY` - That He can't do
 
 2. [optimize s3 cost](https://repost.aws/knowledge-center/s3-reduce-costs)
+- s3 storage lens
+- Compress S3 Objects
