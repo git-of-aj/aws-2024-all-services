@@ -1,0 +1,19 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "arn:aws:iam::599790692950:user/2-april-2024"
+            },
+            "Action": [
+                "s3:ListBucket",
+                "s3:GetObject"
+            ],
+            "Resource": [
+                "arn:aws:s3:::tokyo-demo-008",
+                "arn:aws:s3:::tokyo-demo-008/*"
+            ]
+        }
+    ]
+}
